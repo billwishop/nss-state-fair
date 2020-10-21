@@ -5,12 +5,12 @@ console.log("hello from RideTicketHolders.js")
 
 
 export const RideTicketHolders = () => {
-    eventHub.addEventListener("rideEvent", customEvent => {
+    eventHub.addEventListener("rideTicketPurchased", customEvent => {
             
-          contentTarget +=
+          contentTarget.innerHTML +=
             `<div class="person rider"></div>`
 
-        return console.log("Button has been clicked")
+        console.log("Button has been clicked")
     })
 }
 
