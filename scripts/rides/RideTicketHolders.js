@@ -10,6 +10,5 @@ export const RideTicketHolders = () => {
           contentTarget.innerHTML +=
             `<div class="person rider"></div>`
 
-        console.log("Button has been clicked")
     })
 }
