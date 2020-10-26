@@ -1,7 +1,7 @@
 const contentTarget = document.querySelector(".rides")
 const eventHub = document.querySelector("#state-fair")
 
-console.log("hello from RideTicketHolders.js")
+// console.log("hello from RideTicketHolders.js")
 
 
 export const RideTicketHolders = () => {
